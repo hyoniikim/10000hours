@@ -1,0 +1,674 @@
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2")
+      format("woff2"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff")
+      format("woff"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf")
+      format("opentype");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background-color: #5b2386;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 311px;
+}
+
+.clock {
+  width: 221.6px;
+  height: 225px;
+  position: absolute;
+}
+
+.title {
+  width: 529.6px;
+  height: 112.01px;
+  position: absolute;
+  z-index: 1;
+}
+
+.box1 {
+  font-family: "OTEnjoystoriesBA";
+  color: #f5df4d;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 39.6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 199px;
+}
+
+.box2 {
+  text-align: center;
+  margin-top: 118px;
+  position: relative;
+}
+
+.quote {
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.law {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  z-index: 0;
+  position: relative;
+}
+
+.hour {
+  font-family: "GmarketSansBold";
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 78px;
+}
+
+.sec1 {
+  font-family: "GmarketSansMedium";
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.sec2 {
+  width: 228px;
+  height: 57px;
+  border: 0px solid white;
+  border-radius: 7px;
+  background-color: #ffffff;
+  font-family: "GmarketSansMedium";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #babcbe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec3 {
+  font-family: "GmarketSansMedium";
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 24px;
+  color: #ffffff;
+}
+input::placeholder {
+  color: #babcbe;
+}
+.so {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 27px;
+}
+.inline {
+  display: flex;
+  align-items: center;
+}
+.sec4 {
+  font-family: "GmarketSansMedium";
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.sec5 {
+  width: 228px;
+  height: 57px;
+  border: 0px solid white;
+  border-radius: 7px;
+  background-color: #ffffff;
+  font-family: "GmarketSansMedium";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #babcbe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec6 {
+  font-family: "GmarketSansMedium";
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.box4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 115px;
+}
+
+.question {
+  background-color: #fcee21;
+  width: 565px;
+  height: 66px;
+  border: 0px solid #fcee21;
+  border-radius: 56px;
+  gap: 10px;
+  font-family: "GmarketSansMedium";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #5b2386;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  margin-right: 7px;
+}
+.question:active {
+  box-shadow: 0px 0px 10px 0px #00000080;
+  cursor: pointer;
+}
+.point {
+  margin-top: 14px;
+}
+.box5 {
+  font-family: "GmarketSansMedium";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 0 20px;
+  margin-top: 147px;
+}
+.program {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 78px;
+}
+.programming {
+  font-family: "GmarketSansBold";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+}
+.training {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+}
+.day {
+  font-family: "GmarketSansBold";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+}
+
+.box6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 127px;
+}
+
+.go {
+  width: 356px;
+  height: 66px;
+  border: 0px solid #fcee21;
+  border-radius: 56px;
+  gap: 10px;
+  background-color: #fcee21;
+  color: #5b2386;
+  font-family: "GmarketSansMedium";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  margin-right: 18px;
+}
+
+.share {
+  background-color: #ffffff;
+  width: 191px;
+  height: 66px;
+  border: 0px solid #ffffff;
+  border-radius: 56px;
+  gap: 10px;
+  color: #5b2386;
+  font-family: "GmarketSansMedium";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+.share:active {
+  box-shadow: 0px 0px 10px 0px #00000080;
+  cursor: pointer;
+}
+.weniv {
+  display: block;
+  color: #ffffff;
+  width: 125px;
+  height: 25px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+.copyright {
+  font-family: "Noto Sans KR";
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17.38px;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+#modalOpen,
+#modalClose {
+  cursor: pointer;
+}
+
+#modalContainer {
+  position: fixed;
+  width: 947px;
+  height: 951px;
+  top: -57px;
+  left: -59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modalContainer.hidden {
+  display: none;
+}
+
+#modalContent {
+  position: relative;
+  background-color: #ffffff;
+  width: 800px;
+  height: 800px;
+  padding: 15px;
+  border: 0px solid #ffffff;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 0px #00000080;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#modalContent > h1 {
+  font-family: "OTEnjoystoriesBA";
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 105.6px;
+  text-align: center;
+  color: #5b2386;
+  margin-top: 76px;
+}
+
+#modalContent > p {
+  font-family: "OTEnjoystoriesBA";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 39.6px;
+  text-align: center;
+  color: #5b2386;
+  margin-top: 4px;
+}
+.licat {
+  width: 433px;
+  height: 337px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#modalClose {
+  width: 508px;
+  height: 66px;
+  border: 0px solid #fcee21;
+  border-radius: 56px;
+  gap: 10px;
+  background-color: #fcee21;
+  color: #5b2386;
+  font-family: "GmarketSansMedium";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px #00000080;
+  margin-top: 74px;
+}
+
+/*모바일*/
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    margin-top: 100px;
+  }
+  .clock {
+    width: 125px;
+    height: auto;
+  }
+  .title {
+    width: 267px;
+    height: auto;
+  }
+  .box1 {
+    font-size: 22px;
+    margin-top: 98px;
+    line-height: 24.2px;
+  }
+  .box2 {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+  }
+  .quote {
+    position: absolute;
+    width: 302px;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .law {
+    font-family: "GmarketSansMedium";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  .hour {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+  }
+  .todo {
+    text-align: center;
+    margin-top: 62px;
+  }
+  .sec1 {
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+  }
+  .sec2 {
+    width: 156px;
+    height: 37px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+  }
+  .sec3 {
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+  }
+  .so {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+  }
+  .sec4 {
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+  }
+  .sec5 {
+    width: 156px;
+    height: 37px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec6 {
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: 4px;
+  }
+  .box4 {
+    margin-top: 49px;
+  }
+  .question {
+    width: 168px;
+    border-radius: 13px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px #00000080;
+    padding: 23px, 49px, 21px, 49px;
+  }
+  .point {
+    width: 43px;
+    height: 48px;
+  }
+  .box5 {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .program {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: "GmarketSansMedium";
+    display: flex;
+    align-items: center;
+  }
+  .programming {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .training {
+    font-size: 14px;
+    line-height: 14px;
+    font-family: "GmarketSansMedium";
+  }
+  .day {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .box6 {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .go {
+    width: 186px;
+    height: 40px;
+    border-radius: 56px;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    font-family: "GmarketSansMedium";
+    margin-right: 13px;
+    display: inline;
+    white-space: nowrap;
+  }
+
+  .share {
+    width: 92px;
+    height: 40px;
+    border-radius: 56px;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    font-family: "GmarketSansMedium";
+    margin-left: 13px;
+    display: inline;
+    white-space: nowrap;
+  }
+  .weniv {
+    width: 91px;
+    height: 18px;
+    margin-top: 83px;
+  }
+
+  .copyright {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 13.03px;
+    text-align: center;
+    margin-top: 17px;
+  }
+
+  #modalContainer {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: -24px;
+    left: -33px;
+  }
+
+  #modalContent {
+    width: 330px;
+    height: 500px;
+    border-radius: 30px;
+  }
+
+  #modalContent > h1 {
+    width: 153px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70.4px;
+    text-align: center;
+    margin-top: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  #modalContent > p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39.6px;
+    text-align: center;
+  }
+
+  .licat {
+    width: 241px;
+    height: 188px;
+  }
+
+  #modalClose {
+    width: 241px;
+    height: 68px;
+    margin-top: 34px;
+    border-radius: 13px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+  }
+}
